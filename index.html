@@ -17,17 +17,6 @@
     <title>PWA</title>
 </head>
 
-<script>
-    if ("serviceWorker" in navigator) {
-        window.addEventListener("load", function () {
-            navigator.serviceWorker
-                .register("serviceWorker.js")
-                .then(res => console.log("service worker registered"))
-                .catch(err => console.log("service worker not registered", err))
-        })
-    }
-</script>
-
 <body>
     <main class="container" style="background-color: #555;">
         <h1 style="text-align: center; color: white">Calculadora</h1>
