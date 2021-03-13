@@ -13,9 +13,33 @@
         integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <title>PWA</title>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
-    <button type="button" class="btn btn-primary">Primary</button>
+    <main class="container" style="background-color: #555;">
+        <h1 style="text-align: center; color: white">Calculadora</h1>
+        <div class="container">
+            <div class="row" style="margin-bottom: 30px; margin-top: 30px;">
+                <div class="col-sm">
+                    <label for="n1" style="color:white">Número 1:</label>
+                    <input type="number" id="n1">
+                </div>
+
+                <div class="col-sm">
+                    <label for="n1" style="color:white">Número 2:</label>
+                    <input type="number" id="n2">
+                </div>
+                
+                <div class="col-sm">
+                    <label for="n1" style="color:white">Resultado</label>
+                    <input type="number" id="n2" disabled>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button type="button" class="btn btn-dark">Calcular</button>
+        </div>        
+        <br>
+    </main>
 </body>
 
 </html>
